@@ -1,0 +1,31 @@
+html{
+ background-color: grey;
+ font-family: sans-serif;
+}
+p{
+ color: green;
+ font-size: 25px;
+ line-height: 50px;
+// text-align: center;
+}
+.parent{
+ width: 306px;
+ height: 306px;
+ border: 1px solid white;
+ margin: 0px auto;
+}
+.child{
+ position: relative;
+ width:100px;
+ height:100px;
+ background-color: black;
+ border:1px solid white;
+ float: left;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.child p{
+ font-size: 50px;
+ color:green;
+}
